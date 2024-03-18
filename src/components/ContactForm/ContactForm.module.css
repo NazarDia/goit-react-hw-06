@@ -1,0 +1,30 @@
+.formContainer {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+.formBox {
+  margin-bottom: 15px;
+}
+.formLabel {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.formInput {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.formButton {
+  background-color: lightgrey;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
+.errorMssg {
+  color: red;
+  font-weight: bold;
+}

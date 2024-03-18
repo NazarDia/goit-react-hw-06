@@ -1,0 +1,32 @@
+.contactContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.contactItems {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.listItem {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.contactBtn {
+  background-color: lightgrey;
+  color: black;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contactBtn:hover,
+.contactBtn:focus {
+  border: 2px solid black;
+}
